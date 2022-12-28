@@ -1,14 +1,15 @@
+// A: done ✅
 let x = prompt('enter number');
  console.log(x**(1/2));
 
 
-
+// A: done ✅
 let y = prompt('enter value in celsius');
 let result = y*1.8 + 32;
 console.log(result);
 
 
-
+// A: done ✅
 let a = prompt('enter number');
 if (a > 0) {
     console.log('positive value')
@@ -21,7 +22,7 @@ else {
 }; 
 
 
-
+// A: done ✅
 let b = prompt('enter number');
 if  (b % 2 == 0) {
     console.log('even number')
@@ -31,7 +32,7 @@ else {
 };  
 
 
-
+// A: done ✅
 let c = +prompt ('enter first number');
 let d = +prompt ('enter second number');
 let e = +prompt ('enter third number');
@@ -52,7 +53,7 @@ if (e > c) {
 }
 
 
-
+// A: done ✅
 let f = +prompt('enter value 1')
 let g = +prompt('enter value 2')
 let operator = prompt('enter operand')
@@ -74,7 +75,7 @@ switch (operator) {
 }
 
 
-
+// A: done ✅
 let position = prompt('enter position please');
 if (position === 'user') {
     console.log('xos geldin,istifadeci')
@@ -87,7 +88,7 @@ else if (position === 'guest') {
     }
 
 
-
+// A: done ✅
 let h = +prompt('enter number');
 if (h % 3 === 0 && h % 5 === 0) {
     console.log('fizzbuzz')
@@ -100,7 +101,7 @@ else if (h % 5 === 0) {
 }; 
  
 
-
+// A: done ✅
 let i = +prompt('enter number');
 if (i < 100) {
     if (i > 9)
@@ -108,7 +109,7 @@ if (i < 100) {
 }
 
 
-
+// A: done ✅
 let j = +prompt('enter number');
 if (j % 2 == 0) {
     if (j % 5 == 0)
@@ -116,7 +117,7 @@ if (j % 2 == 0) {
 }
 
 
-
+// A: done ✅
 let k = +prompt('birinci eded daxil et');
 let l = +prompt('ikinci eded daxil et');
 let m = +prompt('ucuncu eded daxil et');
