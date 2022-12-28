@@ -1,3 +1,4 @@
+// A: done ✅
 let x = prompt('enter your name');
 let y = prompt('enter your surname');
 let result = x + ' ' + y;
